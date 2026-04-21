@@ -1,12 +1,12 @@
 {
-    "geode": "v5.0.0",
+    "geode": "5.0.0",
     "gd": {
-        "win": "2.2081",
-        "android": "2.2081"
+        "win": "2.2074",
+        "android": "2.2074"
     },
     "id": "papr1ka.visible-collision-blocks",
     "name": "Visible Collision Blocks",
-    "version": "v1.0.0",
+    "version": "1.0.0",
     "developer": "papr1ka",
     "description": "Makes collision blocks visible.",
     "settings": {
