@@ -30,8 +30,8 @@ jobs:
         uses: geode-sdk/build-geode-mod@main
         with:
           combine: true
-          sdk: latest
-          cli: v3.6.0
+          sdk: v5.5.0
+          cli: v3.7.3
           target: ${{ matrix.config.target }}
 
   package:
