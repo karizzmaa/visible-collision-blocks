@@ -8,7 +8,7 @@
     "name": "Visible Collision Blocks",
     "version": "v1.0.0",
     "developer": "papr1ka",
-    "description": "Makes collision blocks.",
+    "description": "Makes collision blocks visible.",
     "settings": {
         "enabled": {
             "type": "bool",
