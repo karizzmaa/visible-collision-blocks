@@ -33,7 +33,7 @@ jobs:
           echo "------ RAW mod.json ------"
           cat mod.json || echo "mod.json not found"
           echo "------ HEX DUMP ------"
-          hexdump -C mod.json || echo "hexdump failed"
+          certutil -encodehex mod.json stdout
 
       - name: Build the mod
         uses: geode-sdk/build-geode-mod@main
