@@ -26,21 +26,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-
-      # 🔍 DEBUG STEP (THIS IS THE IMPORTANT PART)
-      - name: Show mod.json (raw + hex)
-        run: |
-          echo "------ RAW mod.json ------"
-          cat mod.json || echo "mod.json not found"
-          echo "------ HEX DUMP ------"
-          certutil -encodehex mod.json stdout
-
       - name: Build the mod
         uses: geode-sdk/build-geode-mod@main
         with:
           combine: true
           sdk: latest
-          cli: latest
+          cli: 3.6.0
           target: ${{ matrix.config.target }}
 
   package:
