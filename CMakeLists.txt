@@ -18,4 +18,5 @@ target_include_directories(${PROJECT_NAME} PRIVATE src)
 set(GEODE_LINK_NIGHTLY 0)
 include($ENV{GEODE_SDK}/cmake/GeodeFile.cmake)
 
-setup_geode_mod(${PROJECT_NAME})
+setup_geode_mod(${PROJECT_NAME}
+SOURCE_DIR ${CMAKE_SOURCE_DIR})
