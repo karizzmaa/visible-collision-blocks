@@ -1,0 +1,24 @@
+{
+    "geode": "4.4.0",
+    "gd": {
+        "win": "2.2074",
+        "android": "2.2074"
+    },
+    "id": "papr1ka.visible-collision-blocks",
+    "name": "Visible Collision Blocks",
+    "version": "v1.0.0",
+    "developer": "papr1ka",
+    "description": "Keeps collision blocks (object ID 1816) always visible in-game and in the editor, immune to hide groups and alpha triggers.",
+    "tags": ["editor", "gameplay", "utility"],
+    "links": {
+        "source": "https://github.com/papr1ka/visible-collision-blocks"
+    },
+    "settings": {
+        "enabled": {
+            "type": "bool",
+            "name": "Always Show Collision Blocks",
+            "description": "When enabled, collision blocks (ID 1816) are always visible and cannot be hidden by any trigger or group.",
+            "default": true
+        }
+    }
+}
