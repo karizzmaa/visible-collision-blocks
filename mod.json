@@ -6,25 +6,11 @@
 		"android": "2.2081",
 		"ios": "2.2081"
 	},
-	"version": "v2.1.5",
-	"id": "alphalaneous.editortab_api",
-	"name": "EditorTab API",
-	"developer": "Alphalaneous",
-	"description": "API for editor tabs",
-	"dependencies": {
-		"geode.node-ids": ">=1.20.0"
-	},
-	"api": {
-        "include": [
-            "include/*.hpp"
-        ]
-    },
-	"tags": [
-		"editor", "developer", "api", "performance"
-	],
+	"version": "v1.0.0",
+	"id": "papr1ka.visible-collision-blocks",
+	"name": "Visible Collision Blocks",
+	"developer": "papr1ka",
+	"description": "makes collision blocks always visible",
 	"links": {
-        "homepage": "https://linktr.ee/Alphalaneous",
-        "source": "https://github.com/Alphalaneous/EditorTab-API",
-        "community": "https://discord.gg/Txn2CA5dHF"
-    }
+        "source": "github.com/karizzmaa/visible-collision-blocks",
 }
