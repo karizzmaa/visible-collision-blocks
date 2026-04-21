@@ -1,25 +1,25 @@
 {
-   "geode":"5.6.0",
+   "geode": "5.6.0",
    "gd": {
       "win": "2.2081",
       "android": "2.2081",
       "mac": "2.2081",
       "ios": "2.2081"
    },
-   "id":"papr1ka.visible-collision-blocks",
-   "name":"Visible Collision Blocks",
-   "version":"v1.0.0",
-   "developer":"papr1ka",
-   "description":"Makes collision blocks visible.",
-   "settings":{
-      "enabled":{
-         "type":"bool",
-         "default":true,
-         "name":"Enable Mod",
-         "description":"Toggle whether collision blocks are forced to always be visible."
+   "id": "papr1ka.visible-collision-blocks",
+   "name": "Visible Collision Blocks",
+   "version": "v1.0.0",
+   "developer": "papr1ka",
+   "description": "Makes collision blocks visible.",
+   "settings": {
+      "enabled": {
+         "type": "bool",
+         "default": true,
+         "name": "Enable Mod",
+         "description": "Toggle whether collision blocks are forced to always be visible."
       }
    },
-   "links":{
-      "source":"https://github.com/karizzmaa/visible-collision-blocks"
+   "links": {
+      "source": "https://github.com/karizzmaa/visible-collision-blocks"
    }
 }
